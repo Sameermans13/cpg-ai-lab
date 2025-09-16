@@ -1,6 +1,6 @@
 baseURL = "https://cpg-ai-lab.netlify.app/"
 languageCode = "en-us"
-title = "Sameer Mansukhani | CPG Consulting Partner"
+title = "CPG AI Lab"
 theme = "PaperMod"
 
 [params]
@@ -13,7 +13,7 @@ ShowReadingTime = true
 [params.profileMode]
 enabled = true
 title = "Sameer Mansukhani"
-subtitle = "20-Year of specialized CPG Domain Consultant"
+subtitle = "20-Year of specialized CPG SME focused on AI powered value unlock"
 imageUrl = "/images/profile.jpg" # You will add an image to /static/images/ later
 imageWidth = 120
 imageHeight = 120
@@ -24,7 +24,7 @@ url = "https://www.linkedin.com/in/sameermansukhani/"
 
 # In your hugo.toml file
 
-# --- FINAL DEFINITIVE MENU ---
+# --- FINAL CORRECTED MENU ---
 [[menu.main]]
     name = "Blog"
     url = "/posts/"
@@ -33,8 +33,8 @@ url = "https://www.linkedin.com/in/sameermansukhani/"
 [[menu.main]]
     name = "AI Projects"
     identifier = "projects"
+    url = "/projects/" # This makes the main link go to your projects landing page
     weight = 20
-    # NO URL on the parent
 
 [[menu.main]]
     name = "📈 CPG Dashboard"
@@ -48,11 +48,7 @@ url = "https://www.linkedin.com/in/sameermansukhani/"
     parent = "projects"
     weight = 22
 
-[[menu.main]]
-    name = "🏬 Retailer Segmentation"
-    url = "/apps/Segmentation"
-    parent = "projects"
-    weight = 23
+# Add other project links here as needed...
 
 [[menu.main]]
     name = "About"
