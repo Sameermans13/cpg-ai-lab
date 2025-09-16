@@ -13,7 +13,7 @@ ShowReadingTime = true
 [params.profileMode]
 enabled = true
 title = "Sameer Mansukhani"
-subtitle = "20-Year of specialized CPG SME focused on AI powered value unlock"
+subtitle = "20-Year of specialized CPG SME focused on delivering domain centric value unlock leveraging AI."
 imageUrl = "/images/profile.jpg" # You will add an image to /static/images/ later
 imageWidth = 120
 imageHeight = 120
