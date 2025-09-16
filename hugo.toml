@@ -22,9 +22,8 @@ imageHeight = 120
 name = "linkedin"
 url = "https://www.linkedin.com/in/sameermansukhani/"
 
-# In your hugo.toml file
 
-# --- FINAL CORRECTED MENU ---
+# --- FINAL & DEFINITIVE MENU STRUCTURE ---
 [[menu.main]]
     name = "Blog"
     url = "/posts/"
@@ -33,22 +32,15 @@ url = "https://www.linkedin.com/in/sameermansukhani/"
 [[menu.main]]
     name = "AI Projects"
     identifier = "projects"
-    url = "/projects/" # This makes the main link go to your projects landing page
+    url = "/projects/" # This URL MUST have a corresponding _index.md file
     weight = 20
 
 [[menu.main]]
-    name = "📈 CPG Dashboard"
-    url = "/apps/"
+    name = "📈 CPG AI Dashboard"
+    # This URL MUST match a file at content/projects/cpg-dashboard.md
+    url = "/projects/cpg-dashboard/"
     parent = "projects"
     weight = 21
-
-[[menu.main]]
-    name = "📊 Demand Forecasting"
-    url = "/apps/Forecasting"
-    parent = "projects"
-    weight = 22
-
-# Add other project links here as needed...
 
 [[menu.main]]
     name = "About"
