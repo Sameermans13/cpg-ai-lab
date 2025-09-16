@@ -5,3 +5,8 @@ publish = "public"
 [build.environment]
 HUGO_VERSION = "v0.150.0" # 👈 IMPORTANT: Replace with your version from Step 1
 HUGO_ENABLE_GIT_INFO = "true"
+
+[[redirects]]
+  from = "/apps/*"
+  to = "https://cpg-ai-solutions.streamlit.app/:splat" # 👈 Replace with your Streamlit URL
+  status = 200
