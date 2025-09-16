@@ -1,0 +1,33 @@
+baseURL = "https://www.cpgailab.com/"
+languageCode = "en-us"
+title = "Sameer Mansukhani | CPG Consulting Partner"
+theme = "PaperMod"
+
+[params]
+author = "Sameer Mansukhani"
+description = "Insights on the intersection of CPG Business Strategy, Capabilities and Technologies."
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+
+[params.profileMode]
+enabled = true
+title = "Sameer Mansukhani"
+subtitle = "20-Year of specialized CPG Domain Consultant"
+imageUrl = "/images/profile.jpg" # You will add an image to /static/images/ later
+imageWidth = 120
+imageHeight = 120
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/sameermansukhani/"
+
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+name = "CPG Accelerators"
+url = "/projects/"
+weight = 20

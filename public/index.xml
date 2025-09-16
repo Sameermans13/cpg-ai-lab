@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sameer Mansukhani | CPG Consulting Partner</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sameer Mansukhani | CPG Consulting Partner</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Journey into AI: A CPG Consultant&#39;s Perspective</title>
+      <link>http://localhost:1313/posts/my-ai-journey/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-ai-journey/</guid>
+      <description>&lt;p&gt;Welcome to my new blog! This is where I&amp;rsquo;ll be sharing insights from my ongoing deep dive into building AI applications to solve real-world CPG challenges.&lt;/p&gt;
+&lt;h3 id=&#34;a-look-at-our-first-project&#34;&gt;A Look at Our First Project&lt;/h3&gt;
+&lt;p&gt;Here is a short video walkthrough of the CPG Sales Dashboard we developed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project: CPG Predictive &amp; Generative AI Dashboard</title>
+      <link>http://localhost:1313/projects/cpg-accelerators/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cpg-accelerators/</guid>
+      <description>&lt;p&gt;This project is an end-to-end CPG analytics application built with Streamlit. It includes a high-performance data pipeline, predictive sales forecasting, and a generative AI chatbot that can query the database in plain English.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cpg-ai-solutions.streamlit.app/&#34;&gt;➡️ Try the Live Application Here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
