@@ -27,38 +27,38 @@ url = "https://www.linkedin.com/in/sameermansukhani/"
     url = "/posts/"
     weight = 10
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 40
-
-# --- NEW EXPANDED MENU FOR AI PROJECTS ---
+# --- CORRECTED MENU FOR AI PROJECTS ---
 [[menu.main]]
     name = "AI Projects"
+    identifier = "projects" # <-- ADD THIS UNIQUE ID
     weight = 20
-    # This is now a parent menu item
 
 [[menu.main]]
     name = "📈 CPG Dashboard"
-    url = "/apps/" # This links to your 1_Home.py Streamlit page
-    parent = "AI Projects"
+    url = "/apps/" # Links to your 1_Home.py Streamlit page
+    parent = "projects" # <-- CHANGE THIS to use the identifier
     weight = 21
 
 [[menu.main]]
     name = "📊 Demand Forecasting"
-    url = "/apps/Forecasting" # This links to your 2_Forecasting.py page
-    parent = "AI Projects"
+    url = "/apps/Forecasting" # Links to your 2_Forecasting.py page
+    parent = "projects" # <-- CHANGE THIS
     weight = 22
 
 [[menu.main]]
-    name = "🤖 Document Q&A"
-    url = "/apps/Document_Q_A" # This links to your 3_... page
-    parent = "AI Projects"
+    name = "📄 Document Q&A"
+    url = "/apps/Document_Q_A" # Links to your 3_... page
+    parent = "projects" # <-- CHANGE THIS
     weight = 23
 
 [[menu.main]]
     name = "🏬 Retailer Segmentation"
-    url = "/apps/Segmentation" # This links to your 4_... page
-    parent = "AI Projects"
+    url = "/apps/Segmentation" # Links to your 4_... page
+    parent = "projects" # <-- CHANGE THIS
     weight = 24
-# --- END NEW MENU ---
+# --- END CORRECTED MENU ---
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
