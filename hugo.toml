@@ -11,7 +11,7 @@ unsafe = true
 [params]
 author = "Sameer Mansukhani"
 description = "Insights on the intersection of CPG Business Strategy, Capabilities and Technologies."
-defaultTheme = "auto"
+defaultTheme = "dark"
 ShowShareButtons = true
 ShowReadingTime = true
 customCSS = ["css/custom.css"]
@@ -28,6 +28,7 @@ imageHeight = 120
 name = "linkedin"
 url = "https://www.linkedin.com/in/sameermansukhani/"
 
+
 # --- Main Menu Structure ---
 [[menu.main]]
     name = "Blog"
@@ -35,16 +36,9 @@ url = "https://www.linkedin.com/in/sameermansukhani/"
     weight = 10
 
 [[menu.main]]
-    name = "AI Projects"
-    identifier = "projects"
+    name = "CPG Accelerators"
     url = "/projects/"
     weight = 20
-
-[[menu.main]]
-    name = "📈 CPG AI Dashboard"
-    url = "/projects/cpg-dashboard/"
-    parent = "projects"
-    weight = 21
 
 [[menu.main]]
     name = "About"

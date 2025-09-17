@@ -1,0 +1,10 @@
+<div class="home-profile {{ .Get "class" }}">
+    <img src="/images/profile.png" alt="Sameer Mansukhani" class="profile-image">
+    <div class="profile-text">
+        <div class="profile-header">
+            <h1 class="profile-title">Sameer Mansukhani</h1>
+            {{- partial "social_icons.html" (dict "page" . "align" "left") -}}
+        </div>
+        <p class="profile-subtitle">20-Year of specialized CPG SME focused on delivering domain centric value unlock leveraging AI.</p>
+    </div>
+</div>

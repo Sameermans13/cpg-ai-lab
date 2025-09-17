@@ -29,55 +29,15 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript><link rel="stylesheet" href="/css/custom.css">
 </head>
 
-<body class="list" id="top"><pre>navigation.Menu{(*navigation.MenuEntry)(0xc0012b40e0), (*navigation.MenuEntry)(0xc0012b5180), (*navigation.MenuEntry)(0xc0012b5340)}</pre>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
+<body class="list dark" id="top"><header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="CPG AI Lab (Alt + H)">CPG AI Lab</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -106,8 +66,8 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="AI Projects">
-                    <span>AI Projects</span>
+                <a href="http://localhost:1313/projects/" title="CPG Accelerators">
+                    <span>CPG Accelerators</span>
                 </a>
             </li>
             <li>
@@ -117,18 +77,33 @@
             </li>
         </ul>
     </nav>
-</header>
-<main class="main"> 
-<div class="post-content"><div class="home-profile">
-    <img src="/images/profile.png" alt="Your Name" class="profile-image">
-<pre><code>&lt;div class=&quot;profile-text&quot;&gt;
-    &lt;h1 class=&quot;profile-title&quot;&gt;Your Name&lt;/h1&gt;
-    &lt;p class=&quot;profile-subtitle&quot;&gt;20-Year CPG Consultant &amp; AI Strategist&lt;/p&gt;
-&lt;/div&gt;
-</code></pre>
+</header><main class="main">
+<div class="page-content">
+
+    <div class="home-profile">
+        <img src="/images/profile.png" alt="Sameer Mansukhani" class="profile-image">
+        <div class="profile-text">
+            <div class="profile-header">
+                <h1 class="profile-title">Sameer Mansukhani</h1><div class="social-icons" align="left">
+    <a href="https://www.linkedin.com/in/sameermansukhani/" target="_blank" rel="noopener noreferrer me"
+        title="Linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+    </a>
 </div>
-<p>Welcome to my digital space. Here, I explore the intersection of <strong>Artificial Intelligence</strong> and the <strong>Consumer Packaged Goods (CPG)</strong> industry. Select an area of the value chain below to explore relevant projects, case studies, and insights.</p>
-<br>
+</div>
+            <p class="profile-subtitle">20-Year of specialized CPG SME focused on delivering domain centric value unlock leveraging AI.</p>
+        </div>
+    </div>
+
+    <p>Welcome to my digital space. Here, I explore the intersection of <strong>Artificial Intelligence</strong> and the <strong>Consumer Packaged Goods (CPG)</strong> industry. Select an area of the value chain below to explore relevant projects, case studies, and insights.</p>
+    <br>
+
+
 <div class="value-chain">
     <div class="node">
         <h2>Supply Chain</h2>
@@ -137,9 +112,9 @@
                 <h4>Demand Forecasting</h4>
                 <p>Using time-series AI to predict future sales.</p>
             </a>
-            <a href="/blog/inventory-optimization/" class="card">
+            <a href="#" class="card disabled">
                 <h4>Inventory Optimization</h4>
-                <p>Strategies to reduce stockouts and holding costs.</p>
+                <p>Strategies to reduce stockouts and holding costs (coming soon).</p>
             </a>
             <a href="#" class="card disabled">
                 <h4>Logistics & Routing</h4>
@@ -183,21 +158,6 @@
     </div>
 </div>
 
-</div>
-
-<article class="first-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">My Journey into AI: A CPG Consultant&#39;s Perspective
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Welcome to my new blog! This is where I’ll be sharing insights from my ongoing deep dive into building AI applications to solve real-world CPG challenges.
-A Look at Our First Project Here is a short video walkthrough of the CPG Sales Dashboard we developed.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-15 00:00:00 +0000 UTC'>September 15, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Sameer Mansukhani</footer>
-  <a class="entry-link" aria-label="post link to My Journey into AI: A CPG Consultant&#39;s Perspective" href="http://localhost:1313/posts/my-ai-journey/"></a>
-</article>
     </main>
     
 <footer class="footer">

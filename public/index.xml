@@ -25,5 +25,33 @@
       <description>&lt;p&gt;This project is an end-to-end CPG analytics application built with Streamlit. It includes a high-performance data pipeline, predictive sales forecasting, and a generative AI chatbot that can query the database in plain English.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cpg-ai-solutions.streamlit.app/&#34;&gt;➡️ Try the Live Application Here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;div class=&#34;about-page-profile-wrapper&#34;&gt;
+    &lt;div class=&#34;home-profile &#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/images/profile.png&#34; alt=&#34;Sameer Mansukhani&#34; class=&#34;profile-image&#34;&gt;
+        &lt;div class=&#34;profile-text&#34;&gt;
+            &lt;div class=&#34;profile-header&#34;&gt;
+                &lt;h1 class=&#34;profile-title&#34;&gt;Sameer Mansukhani&lt;/h1&gt;&lt;div class=&#34;social-icons&#34; align=&#34;left&#34;&gt;
+        &lt;a href=&#34;https://www.linkedin.com/in/sameermansukhani/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer me&#34;
+            title=&#34;Linkedin&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+        stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;path d=&#34;M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z&#34;&gt;&lt;/path&gt;
+        &lt;rect x=&#34;2&#34; y=&#34;9&#34; width=&#34;4&#34; height=&#34;12&#34;&gt;&lt;/rect&gt;
+        &lt;circle cx=&#34;4&#34; cy=&#34;4&#34; r=&#34;2&#34;&gt;&lt;/circle&gt;
+    &lt;/svg&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+            &lt;p class=&#34;profile-subtitle&#34;&gt;20-Year of specialized CPG SME focused on delivering domain centric value unlock leveraging AI.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;For over two decades, I have operated at the intersection of business strategy and technology within the Consumer Packaged Goods (CPG) industry. My career has been dedicated to helping industry leaders navigate complex challenges across the value chain, from supply chain optimization and sales effectiveness to brand marketing.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

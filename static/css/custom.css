@@ -5,7 +5,7 @@
 .home-profile {
     display: flex;           /* Arrange items in a row */
     align-items: center;     /* Vertically center the items */
-    justify-content: center; /* Horizontally center the whole group */
+    justify-content: flex-start; /* Horizontally center the whole group */
     gap: 1.5rem;             /* Add space between image and text */
     margin-bottom: 3rem;
 }
@@ -30,6 +30,21 @@
     font-size: 1.1rem;
     color: var(--secondary);
 }
+
+
+/* --- NEW: Profile Header Styling --- */
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    /* No need for justify-content as the parent is already handling centering */
+}
+
+.profile-header .social-icons {
+    margin-left: 1rem; /* Adds some space between the name and the icon */
+    font-size: 1.5rem; /* Makes the icon a bit larger */
+}
+
 
 /* --- NEW: Value Chain Layout Styling --- */
 .value-chain {
@@ -86,8 +101,8 @@
 }
 
 .value-chain .card.disabled {
-    background-color: #f9f9f9;
-    color: #aaa;
+    background-color: #f7dddd;
+    color: #f6b3b3;
     pointer-events: none;
 }
 
@@ -115,4 +130,10 @@
     font-size: 0.7rem; /* Slightly smaller than default text */
     margin-bottom: 0;
     color: var(--secondary); /* Uses the theme's secondary text color for a subtle look */
+}
+
+/* --- Definitive Override for About Page Profile --- */
+.about-page-profile-wrapper {
+    display: flex;
+    justify-content: flex-start; /* Aligns the profile block to the left */
 }
