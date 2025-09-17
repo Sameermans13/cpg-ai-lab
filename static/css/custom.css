@@ -132,8 +132,8 @@
     color: var(--secondary); /* Uses the theme's secondary text color for a subtle look */
 }
 
-/* --- Definitive Override for About Page Profile --- */
-.about-page-profile-wrapper {
+
+.profile-wrapper-about .home-profile {
     display: flex;
-    justify-content: flex-start; /* Aligns the profile block to the left */
+    justify-content: flex-start !important;
 }

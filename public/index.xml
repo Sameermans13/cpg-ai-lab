@@ -31,7 +31,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;div class=&#34;about-page-profile-wrapper&#34;&gt;
-    &lt;div class=&#34;home-profile &#34;&gt;
+    &lt;div class=&#34;home-profile&#34; style=&#34;justify-content: flex-start !important;&#34;&gt;
         &lt;img src=&#34;http://localhost:1313/images/profile.png&#34; alt=&#34;Sameer Mansukhani&#34; class=&#34;profile-image&#34;&gt;
         &lt;div class=&#34;profile-text&#34;&gt;
             &lt;div class=&#34;profile-header&#34;&gt;
