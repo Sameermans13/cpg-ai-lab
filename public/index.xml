@@ -54,9 +54,7 @@
       <link>http://localhost:1313/posts/my-ai-journey/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/my-ai-journey/</guid>
-      <description>&lt;p&gt;Welcome to my new blog! This is where I&amp;rsquo;ll be sharing insights from my ongoing deep dive into building AI applications to solve real-world CPG challenges.&lt;/p&gt;
-&lt;h3 id=&#34;a-look-at-our-first-project&#34;&gt;A Look at Our First Project&lt;/h3&gt;
-&lt;p&gt;Here is a short video walkthrough of the CPG Sales Dashboard we developed.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Welcome to my new blog! This is where I&amp;rsquo;ll be sharing insights from my ongoing deep dive into building AI applications to solve real-world CPG challenges.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project: CPG Predictive &amp; Generative AI Dashboard</title>
