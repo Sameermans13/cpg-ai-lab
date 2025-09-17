@@ -1,0 +1,118 @@
+/* assets/css/custom.css */
+
+/* --- Profile Section Styling --- */
+
+.home-profile {
+    display: flex;           /* Arrange items in a row */
+    align-items: center;     /* Vertically center the items */
+    justify-content: center; /* Horizontally center the whole group */
+    gap: 1.5rem;             /* Add space between image and text */
+    margin-bottom: 3rem;
+}
+
+.profile-text {
+    text-align: left; /* Left-align the text block */
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-title {
+    margin-bottom: 0.5rem;
+}
+
+.profile-subtitle {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: var(--secondary);
+}
+
+/* --- NEW: Value Chain Layout Styling --- */
+.value-chain {
+    display: flex; /* Arrange children in a row */
+    justify-content: center; /* Center the items horizontally */
+    flex-wrap: wrap; /* Allow items to stack on smaller screens */
+    gap: 1rem; /* Add space between the columns */
+    margin-top: 2rem;
+}
+
+.value-chain .node {
+    flex: 1; /* Allow nodes to grow and shrink equally */
+    min-width: 220px; /* Set a minimum width before stacking */
+    padding: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.value-chain .node h2 {
+    margin-top: 0;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Card (Sub-Node) Styling --- */
+.value-chain .sub-nodes {
+    display: grid;
+    gap: 1rem;
+    text-align: left;
+}
+
+.value-chain .card {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--card-background-color);
+}
+
+.value-chain .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-color: var(--primary-color);
+}
+
+.value-chain .card h4 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.value-chain .card.disabled {
+    background-color: #f9f9f9;
+    color: #aaa;
+    pointer-events: none;
+}
+
+.value-chain .card.disabled h4 {
+    color: #aaa;
+}
+
+/* --- NEW: Font Size Adjustments --- */
+
+/* Reduce the size of the main domain titles (e.g., "Supply Chain") */
+.value-chain .node h2 {
+    font-size: 1.4rem; 
+}
+
+/* Reduce the size of the capability titles in each card (e.g., "Demand Forecasting") */
+.value-chain .card h4 {
+    font-size: 1rem;
+    margin-bottom: 0; /* Add this to tighten up the spacing in the card */
+}
+
+/* --- NEW: Description Text Styling --- */
+
+/* Control the font size of the description text in each card */
+.value-chain .card p {
+    font-size: 0.7rem; /* Slightly smaller than default text */
+    margin-bottom: 0;
+    color: var(--secondary); /* Uses the theme's secondary text color for a subtle look */
+}

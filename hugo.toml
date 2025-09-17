@@ -3,18 +3,24 @@ languageCode = "en-us"
 title = "CPG AI Lab"
 theme = "PaperMod"
 
+# This section tells Hugo's Markdown parser to allow raw HTML.
+# It is now correctly formatted with no leading whitespace.
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 author = "Sameer Mansukhani"
 description = "Insights on the intersection of CPG Business Strategy, Capabilities and Technologies."
 defaultTheme = "auto"
 ShowShareButtons = true
 ShowReadingTime = true
+customCSS = ["css/custom.css"]
 
 [params.profileMode]
-enabled = true
+enabled = false
 title = "Sameer Mansukhani"
 subtitle = "20-Year of specialized CPG SME focused on delivering domain centric value unlock leveraging AI."
-imageUrl = "/images/profile.jpg" # You will add an image to /static/images/ later
+imageUrl = "/images/profile.png"
 imageWidth = 120
 imageHeight = 120
 
@@ -22,8 +28,7 @@ imageHeight = 120
 name = "linkedin"
 url = "https://www.linkedin.com/in/sameermansukhani/"
 
-
-# --- FINAL & DEFINITIVE MENU STRUCTURE ---
+# --- Main Menu Structure ---
 [[menu.main]]
     name = "Blog"
     url = "/posts/"
@@ -32,12 +37,11 @@ url = "https://www.linkedin.com/in/sameermansukhani/"
 [[menu.main]]
     name = "AI Projects"
     identifier = "projects"
-    url = "/projects/" # This URL MUST have a corresponding _index.md file
+    url = "/projects/"
     weight = 20
 
 [[menu.main]]
     name = "📈 CPG AI Dashboard"
-    # This URL MUST match a file at content/projects/cpg-dashboard.md
     url = "/projects/cpg-dashboard/"
     parent = "projects"
     weight = 21
@@ -46,4 +50,3 @@ url = "https://www.linkedin.com/in/sameermansukhani/"
     name = "About"
     url = "/about/"
     weight = 30
-# --- END FINAL MENU ---
