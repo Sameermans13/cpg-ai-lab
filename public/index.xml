@@ -6,8 +6,49 @@
     <description>Recent content in Home on CPG AI Lab</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project: AI-Powered Demand Forecasting</title>
+      <link>http://localhost:1313/projects/demand-forecasting/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/demand-forecasting/</guid>
+      <description>&lt;h3 id=&#34;the-business-problem&#34;&gt;The Business Problem&lt;/h3&gt;
+&lt;p&gt;In the CPG industry, inaccurate demand forecasting leads to two costly problems: stockouts (lost sales) and overstocks (wasted capital and expired product). Traditional forecasting often relies on simple historical averages and fails to capture complex patterns like holidays, seasonality, and recent trends.&lt;/p&gt;
+&lt;h3 id=&#34;the-ai-solution&#34;&gt;The AI Solution&lt;/h3&gt;
+&lt;p&gt;This project showcases a predictive analytics tool that uses a time-series AI model (Meta&amp;rsquo;s Prophet) to generate accurate, SKU-level demand forecasts.&lt;/p&gt;
+&lt;p&gt;The model was trained on a hyper-realistic, multi-year dataset that includes patterns for:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project: AI-Powered Market Research Q&amp;A</title>
+      <link>http://localhost:1313/projects/market-research-qa/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/market-research-qa/</guid>
+      <description>&lt;h3 id=&#34;the-business-problem&#34;&gt;The Business Problem&lt;/h3&gt;
+&lt;p&gt;CPG companies generate and consume vast amounts of market research, trend reports, and internal competitive analyses. However, this wealth of information often sits in static documents, making it difficult for teams to quickly extract specific answers, synthesize insights, or find information relevant to a new strategic question without sifting through hundreds of pages.&lt;/p&gt;
+&lt;h3 id=&#34;the-ai-solution&#34;&gt;The AI Solution&lt;/h3&gt;
+&lt;p&gt;This project introduces an AI-powered conversational agent that transforms static market research documents into an interactive knowledge base. Leveraging &lt;strong&gt;Retrieval-Augmented Generation (RAG)&lt;/strong&gt;, this application allows users to ask natural language questions and receive precise, contextually relevant answers directly from a curated collection of documents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project: Multi-Lens Retailer Segmentation</title>
+      <link>http://localhost:1313/projects/multi-dimensional-segmentation/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/multi-dimensional-segmentation/</guid>
+      <description>&lt;h3 id=&#34;the-business-problem&#34;&gt;The Business Problem&lt;/h3&gt;
+&lt;p&gt;Traditional retailer segmentation is often one-dimensional and static, grouping stores by last year&amp;rsquo;s sales volume alone over longer range data. This simplistic approach fails to capture the true nature of a retail partner, especially as it goes through several demand side patterns. It cannot distinguish between a large, stagnant store and a smaller, high-growth store that is rapidly adopting new product trends.&lt;/p&gt;
+&lt;h3 id=&#34;the-ai-solution&#34;&gt;The AI Solution&lt;/h3&gt;
+&lt;p&gt;This project builds a sophisticated, multi-layered segmentation engine that analyzes retailers through three independent strategic lenses:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project: Prescriptive Sales Action Plan Generator</title>
+      <link>http://localhost:1313/projects/action-plan-generator/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/action-plan-generator/</guid>
+      <description>&lt;h3 id=&#34;the-business-problem&#34;&gt;The Business Problem&lt;/h3&gt;
+&lt;p&gt;Even with advanced retailer segmentation, a common challenge remains: how to translate high-level strategic personas into concrete, daily actions for the sales team. Sales representatives are often overwhelmed with a long list of tasks and limited time during a store visit, leading to inconsistent execution of strategy.&lt;/p&gt;
+&lt;h3 id=&#34;the-ai-solution&#34;&gt;The AI Solution&lt;/h3&gt;
+&lt;p&gt;This project directly solves that problem by &lt;strong&gt;operationalizing the insights&lt;/strong&gt; from our multi-layered segmentation model. It is a prescriptive analytics tool that acts as a &amp;ldquo;smart assistant&amp;rdquo; for sales representatives.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Journey into AI: A CPG Consultant&#39;s Perspective</title>
       <link>http://localhost:1313/posts/my-ai-journey/</link>
@@ -26,7 +67,7 @@
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cpg-ai-solutions.streamlit.app/&#34;&gt;➡️ Try the Live Application Here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About Me</title>
+      <title></title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>

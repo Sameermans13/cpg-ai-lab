@@ -137,3 +137,28 @@
     display: flex;
     justify-content: flex-start !important;
 }
+
+
+/* --- NEW: Styling for Image at End of Value Chain --- */
+.value-chain-end-image-container {
+    text-align: center; /* Center the image horizontally */
+    margin-top: 4rem; /* Space above the image */
+    margin-bottom: 2rem; /* Space below the image */
+    padding: 0 1rem; /* Add some padding on smaller screens */
+}
+
+.value-chain-end-image {
+    max-width: 800px; /* Limit max width for large screens */
+    width: 100%; /* Make it responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Soften edges */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    opacity: 0.9; /* Slightly reduce opacity to blend with dark theme */
+}
+
+/* Optional: Add a media query for even smaller screens if needed */
+@media (max-width: 768px) {
+    .value-chain-end-image {
+        max-width: 100%;
+    }
+}

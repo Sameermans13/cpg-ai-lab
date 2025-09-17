@@ -1,5 +1,4 @@
 ---
-title: "About Me"
 hidemeta: true # This is a PaperMod theme feature to hide date/reading time
 ---
 <div class="about-page-profile-wrapper">
