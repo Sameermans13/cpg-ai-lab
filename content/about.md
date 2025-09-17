@@ -15,7 +15,7 @@ This website serves as my digital notebook and a platform to share my experiment
 * **Hands-on projects** where I build and test AI-powered tools to solve real business problems.
 * **Frameworks** and thought leadership on navigating digital transformation.
 
-My experience is not just in advising *on* AI strategy, but in understanding what it truly takes to bring it to life—from the datasets to the machine learning models, embedding the output into business processes resulting in value unlock.
+Intent of this website is not just in advising *on* AI strategy, but in developing understanding of what it truly takes to bring it to life—from the datasets to the machine learning models, embedding the output into business processes resulting in value unlock.
 
 Let's connect and discuss how we can build the future of CPG, together.
 
